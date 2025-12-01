@@ -1,24 +1,411 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>My Portfolio</title>
-    <style>
-        body {
-            font-family: Arial;
-            padding: 40px;
-        }
-
-        h1 {
-            color: #333;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yamuna Prasath Nagu - Full Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <h1>Hello, I'm Yamuna</h1>
-    <p>Web Developer | PHP | Laravel | Vue.js | JavaScript</p>
-    <p>Welcome to my portfolio!</p>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">YPN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 hero-content">
+                    <h1>Hi, I'm Yamuna Prasath Nagu</h1>
+                    <p class="subtitle">Full Stack Web Developer</p>
+                    <p class="lead">A passionate web developer around 4 years of experience creating impactful digital
+                        experiences using PHP, Laravel,
+                        Vue.js, and JavaScript. I transform ideas into functional, high-quality applications—balancing
+                        performance, usability,
+                        and modern design principles. Whether building from scratch or enhancing existing platforms, I
+                        ensure every solution is
+                        reliable, scalable, and aligned with client goals.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-light-custom btn-custom">View Projects</a>
+                        <a href="./Yamunaprasath_Nagu.pdf" class="btn btn-outline-custom btn-custom">Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-light">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>About Me</h2>
+            </div>
+            <div class="row justify-content-center fade-in">
+                <div class="col-lg-8">
+                    <div class="contact-info">
+                        <div class="profile text-center m-4">
+                            <img src="./profile.png" alt="profile" class="img-thumbnail rounded-circle" width="120px">
+                        </div>
+                        <p class="text-center mb-4"><strong>Full Stack Web Developer</strong>,<br /> Soft
+                            Solutions4U, <br />Chennai, India</p>
+                        <p class="text-center mb-4">Around 4 years of experience designing
+                            and developing scalable applications using PHP, Laravel, Vue.js, JavaScript, and MySQL.
+                            Skilled in building responsive interfaces, integrating RESTful APIs, and delivering quality
+                            solutions within the LAMP environment.</p>
+                        <p class="text-center">
+                            Strong collaborator with hands-on experience in CMS, CRM, and eCommerce platforms,
+                            with a focus on problem-solving, performance optimisation, and delivering real
+                            business value through technology. Currently seeking challenging opportunities to
+                            leverage modern web technologies and contribute to innovative projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Technical Skills</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 fade-in d-flex">
+                    <div class="skill-card">
+                        <i class="fas fa-code"></i>
+                        <h4>Front-end</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">Bootstrap</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Vue.js</span>
+                            <span class="skill-tag">React.js</span>
+                            <span class="skill-tag">Leaflet.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 fade-in d-flex">
+                    <div class="skill-card">
+                        <i class="fas fa-server"></i>
+                        <h4>Back-end</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">PHP</span>
+                            <span class="skill-tag">Laravel</span>
+                            <span class="skill-tag">REST API</span>
+                            <span class="skill-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 fade-in d-flex">
+                    <div class="skill-card">
+                        <i class="fas fa-database"></i>
+                        <h4>Database</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">Database Design</span>
+                            <span class="skill-tag">Query Optimization</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 fade-in d-flex">
+                    <div class="skill-card">
+                        <i class="fas fa-tools"></i>
+                        <h4>Tools & Platforms</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Bitbucket</span>
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">JIRA</span>
+                            <span class="skill-tag">Slack</span>
+                            <span class="skill-tag">WordPress</span>
+                            <span class="skill-tag">Shopify</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-light">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Featured Projects</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 fade-in d-flex">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-exchange-alt"></i>
+                            </div>
+                            <span class="project-category">Vue.js Migration</span>
+                            <h4>Payrexx Migration</h4>
+                        </div>
+                        <div class="project-body">
+                            <p>Migrated Payrexx frontend codebase from Vue 2 (Options API) to Vue 3 (Composition API)
+                                for improved reusability and maintainability. Followed a structured development cycle
+                                encompassing planning, bug fixing, testing, and deployment phases.</p>
+                            <div class="skill-tags">
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">Vue.js</span>
+                                <span class="skill-tag">Vuex</span>
+                                <span class="skill-tag">PHP</span>
+                                <span class="skill-tag">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 fade-in d-flex">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-plug"></i>
+                            </div>
+                            <span class="project-category">CRM Development</span>
+                            <h4>VTigerCRM Plugins</h4>
+                        </div>
+                        <div class="project-body">
+                            <p><strong>Swiss QR:</strong> Created a plugin for Swiss QR invoice generation using Sprain
+                                Library.</p>
+                            <p><strong>Google Sheets Integration:</strong> Enabled data synchronisation with Google
+                                Sheets using Google Cloud API and Apps Script.</p>
+                            <div class="skill-tags">
+                                <span class="skill-tag">PHP</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">MySQL</span>
+                                <span class="skill-tag">APIs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 fade-in d-flex">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fa-brands fa-laravel"></i>
+                            </div>
+                            <span class="project-category">Laravel Application</span>
+                            <h4>Desk Reservation System</h4>
+                        </div>
+                        <div class="project-body">
+                            <p>Designed and implemented a settings menu for adding and managing floor and zone details.
+                                Enabled employees and admins to select and assign work desks via an intuitive interface
+                                with notification functionalities.</p>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Laravel</span>
+                                <span class="skill-tag">Bootstrap</span>
+                                <span class="skill-tag">Leaflet.js</span>
+                                <span class="skill-tag">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 fade-in d-flex">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-credit-card"></i>
+                            </div>
+                            <span class="project-category">Payment Integration</span>
+                            <h4>Stripe Integration - Rathin Tourism</h4>
+                        </div>
+                        <div class="project-body">
+                            <p>Integrated Stripe payment gateway into a React frontend, enabling secure mobile payments.
+                                Implemented Stripe Checkout with payment intents and tokenisation via Stripe Elements.
+                            </p>
+                            <div class="skill-tags">
+                                <span class="skill-tag">React.js</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">Stripe API</span>
+                                <span class="skill-tag">REST API</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 fade-in d-flex">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fab fa-wordpress"></i>
+                            </div>
+                            <span class="project-category">WordPress Development</span>
+                            <h4>End-to-End WordPress website Development</h4>
+                        </div>
+                        <div class="project-body">
+                            <p>Developed a fully responsive WordPress website from scratch, focusing on performance,
+                                clean UI, and seamless user experience.
+                                theme customization. Creating custom calculation forms, and
+                                extending functionality through hooks, actions, and filters. I also integrated
+                                third-party applications using REST APIs and optimized the site for speed, SEO, and
+                                cross-device compatibility.</p>
+                            <div class="skill-tags">
+                                <span class="skill-tag">WordPress</span>
+                                <span class="skill-tag">PHP</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">CSS</span>
+                                <span class="skill-tag">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 fade-in d-flex">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fab fa-shopify"></i>
+                            </div>
+                            <span class="project-category">E-commerce</span>
+                            <h4>Shopify Store Customization</h4>
+                        </div>
+                        <div class="project-body">
+                            <p>Developed a custom Shopify project using Liquid, creating fully responsive sections and
+                                dynamic custom blocks tailored
+                                to the store’s design. Implemented custom Liquid logic, API integrations for real-time
+                                data, and optimized theme
+                                performance. Built reusable components, improved UI/UX, and ensured seamless
+                                functionality across all devices.
+                            </p>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Shopify</span>
+                                <span class="skill-tag">Liquid</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Professional Experience</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-10 offset-lg-1">
+                            <div class="timeline-content">
+                                <h4>Full Stack Web Developer</h4>
+                                <h5 class="text-muted mb-3">Soft Solutions4U, Chennai</h5>
+                                <p class="text-muted mb-3"><i class="far fa-calendar-alt me-2"></i>4 Years of
+                                    Experience</p>
+                                <ul>
+                                    <li>Developed and maintained scalable web applications using PHP, Laravel, and
+                                        Vue.js</li>
+                                    <li>Migrated legacy Vue 2 codebase to Vue 3 for improved performance and
+                                        maintainability</li>
+                                    <li>Built custom CRM plugins for VTigerCRM with payment and integration features
+                                    </li>
+                                    <li>Designed responsive interfaces using Bootstrap and implemented RESTful APIs</li>
+                                    <li>Collaborated with cross-functional teams using JIRA, Bitbucket, and Slack</li>
+                                    <li>Optimized database queries and improved application performance</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="row mt-5">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="timeline-content fade-in">
+                        <h4><i class="fas fa-graduation-cap me-2"></i>Bachelor of Engineering</h4>
+                        <h5 class="text-muted mb-2">Computer Science and Engineering</h5>
+                        <p class="text-muted">University College of Engineering, Ariyalur</p>
+                        <p class="text-muted"><i class="far fa-calendar-alt me-2"></i>2016 - 2020</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-light">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Get In Touch</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 fade-in">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h5 class="mb-1">Email</h5>
+                                <a href="mailto:prasath201198@gmail.com" class="text-muted">prasath201198@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h5 class="mb-1">Phone</h5>
+                                <a href="tel:7538857535" class="text-muted">+91 7538857535</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h5 class="mb-1">Location</h5>
+                                <p class="text-muted mb-0">Chennai, Tamil Nadu, India</p>
+                            </div>
+                        </div>
+                        <div class="text-center mt-4 pt-4 border-top">
+                            <h5 class="mb-3">Connect With Me</h5>
+                            <div class="social-links">
+                                <a href="www.linkedin.com/in/yamuna-prasath-nagu-047843171" title="LinkedIn"><i
+                                        class="fab fa-linkedin"></i></a>
+                                <a href="https://github.com/yamunaprasath" title="GitHub"><i
+                                        class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Yamuna Prasath Nagu. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
