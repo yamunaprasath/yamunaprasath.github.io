@@ -394,7 +394,7 @@ section {
 
 .timeline-content {
     background: white;
-    padding: 30px;
+    padding: 75px 30px;
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
     position: relative;
@@ -491,13 +491,5 @@ footer {
 
     .hero .subtitle {
         font-size: 1.2rem;
-    }
-
-    .timeline::before {
-        left: 20px;
-    }
-
-    .timeline-icon {
-        left: 20px;
     }
 }
