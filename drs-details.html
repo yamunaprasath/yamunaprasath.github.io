@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desk Reservation System - Project Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/drs.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">YPN</a>
+            <a href="index.html#projects" class="btn btn-back ms-auto">
+                <i class="fas fa-arrow-left me-2"></i>Back to Portfolio
+            </a>
+        </div>
+    </nav>
+
+    <!-- Project Hero -->
+    <section class="project-hero">
+        <div class="container">
+            <div class="project-hero-content">
+                <h1>Desk Reservation System</h1>
+                <p class="subtitle">Efficient Workspace Management for Hybrid Teams</p>
+
+                <div class="project-meta">
+                    <div class="meta-item">
+                        <i class="fas fa-user-tie"></i>
+                        <span>Full-Stack Developer</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-chair"></i>
+                        <span>Complete Booking Module</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-calendar-check"></i>
+                        <span>Real-Time Reservations</span>
+                    </div>
+                </div>
+
+                <div class="tech-stack">
+                    <span class="tech-pill">PHP</span>
+                    <span class="tech-pill">Laravel</span>
+                    <span class="tech-pill">JavaScript</span>
+                    <span class="tech-pill">Leaflet.js</span>
+                    <span class="tech-pill">MySQL</span>
+                    <span class="tech-pill">REST APIs</span>
+                    <span class="tech-pill">Queue System</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Overview -->
+    <section class="project-content">
+        <div class="container">
+            <div class="content-card fade-in">
+                <h2>Project Overview</h2>
+                <p>Built a complete desk reservation module using PHP, Laravel, JavaScript, and Leaflet.js, enabling
+                    efficient workspace management for hybrid teams. The system provided configurable setups, real-time
+                    desk booking, admin control, and automated notifications to streamline desk allocation.</p>
+                <p>This comprehensive solution addresses the challenges of modern hybrid work environments by providing
+                    intuitive desk management, visual floor mapping, and automated communication systems for seamless
+                    workspace coordination.</p>
+            </div>
+
+            <!-- Key Features -->
+            <div class="content-card fade-in">
+                <h2>Key Responsibilities & Implementation</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-cog"></i>
+                        </div>
+                        <h4>1. Settings Panel</h4>
+                        <p>Developed admin settings module to manage workspace hierarchy:</p>
+                        <ul>
+                            <li>Floors management</li>
+                            <li>Zones per floor configuration</li>
+                            <li>Desk layouts and availability</li>
+                            <li>Intuitive add/edit/remove UI</li>
+                            <li>Structured relational models</li>
+                        </ul>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                        <h4>2. Interactive Booking</h4>
+                        <p>Created intuitive desk booking interface with:</p>
+                        <ul>
+                            <li>Real-time desk availability</li>
+                            <li>Floor and zone selection</li>
+                            <li>Date/time reservations</li>
+                            <li>Visual desk indicators</li>
+                            <li>Leaflet.js mapping</li>
+                            <li>Fully responsive design</li>
+                        </ul>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-user-shield"></i>
+                        </div>
+                        <h4>3. Admin Controls</h4>
+                        <p>Comprehensive admin dashboard features:</p>
+                        <ul>
+                            <li>Assign desks to employees</li>
+                            <li>Override reservations</li>
+                            <li>Block desks for maintenance</li>
+                            <li>Release desks for events</li>
+                            <li>Manage all reservations</li>
+                        </ul>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bell"></i>
+                        </div>
+                        <h4>4. Notifications</h4>
+                        <p>Automated notification system for:</p>
+                        <ul>
+                            <li>Reservation confirmations</li>
+                            <li>Assignment updates</li>
+                            <li>Booking reminders</li>
+                            <li>Cancellation alerts</li>
+                            <li>Real-time event triggers</li>
+                            <li>Laravel queue integration</li>
+                        </ul>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-filter"></i>
+                        </div>
+                        <h4>5. UX & Performance</h4>
+                        <p>Optimized user experience with:</p>
+                        <ul>
+                            <li>Clean, intuitive UI design</li>
+                            <li>Advanced filtering options</li>
+                            <li>Date/department filters</li>
+                            <li>Desk type selection</li>
+                            <li>Performance caching</li>
+                            <li>Efficient DB queries</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Visual Desk Layout -->
+            <div class="content-card fade-in">
+                <h2>Interactive Desk Map Visualization</h2>
+                <p>Built with Leaflet.js for intuitive desk selection and real-time availability tracking:</p>
+
+                <div class="desk-visual">
+                    <div class="desk-legend">
+                        <div class="legend-item">
+                            <div class="legend-color available"></div>
+                            <span>Available</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color reserved"></div>
+                            <span>Reserved</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color blocked"></div>
+                            <span>Blocked</span>
+                        </div>
+                    </div>
+
+                    <div class="desk-grid">
+                        <div class="desk-item available"><i class="fas fa-chair"></i></div>
+                        <div class="desk-item available"><i class="fas fa-chair"></i></div>
+                        <div class="desk-item reserved"><i class="fas fa-chair"></i></div>
+                        <div class="desk-item available"><i class="fas fa-chair"></i></div>
+                        <div class="desk-item blocked"><i class="fas fa-chair"></i></div>
+                        <div class="desk-item available"><i class="fas fa-chair"></i></div>
+                        <div class="desk-item reserved"><i class="fas fa-chair"></i></div>
+                        <div class="desk-item available"><i class="fas fa-chair"></i></div>
+
+                        <div class="desk-item available"><i class="fas fa-chair"></i></div>
+                        <div class="desk-item reserved"><i class="fas fa-chair"></i></div>
+                        <div class="desk-item available"><i class="fas fa-chair"></i></div>
+                        <div class="desk-item available"><i class="fas fa-chair"></i></div>
+                        <div class="desk-item available"><i class="fas fa-chair"></i></div>
+                        <div class="desk-item blocked"><i class="fas fa-chair"></i></div>
+                        <div class="desk-item available"><i class="fas fa-chair"></i></div>
+                        <div class="desk-item reserved"><i class="fas fa-chair"></i></div>
+
+                        <div class="desk-item reserved"><i class="fas fa-chair"></i></div>
+                        <div class="desk-item available"><i class="fas fa-chair"></i></div>
+                        <div class="desk-item available"><i class="fas fa-chair"></i></div>
+                        <div class="desk-item available"><i class="fas fa-chair"></i></div>
+                        <div class="desk-item reserved"><i class="fas fa-chair"></i></div>
+                        <div class="desk-item available"><i class="fas fa-chair"></i></div>
+                        <div class="desk-item available"><i class="fas fa-chair"></i></div>
+                        <div class="desk-item blocked"><i class="fas fa-chair"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 stat-item fade-in">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Real-Time Updates</span>
+                </div>
+                <div class="col-md-3 stat-item fade-in">
+                    <span class="stat-number">3-Tier</span>
+                    <span class="stat-label">Floor → Zone → Desk</span>
+                </div>
+                <div class="col-md-3 stat-item fade-in">
+                    <span class="stat-number">Auto</span>
+                    <span class="stat-label">Notifications</span>
+                </div>
+                <div class="col-md-3 stat-item fade-in">
+                    <span class="stat-number">Mobile</span>
+                    <span class="stat-label">Responsive</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Outcome -->
+    <section class="project-content">
+        <div class="container">
+            <div class="content-card fade-in">
+                <h2>Project Outcome</h2>
+                <div class="outcome-grid">
+                    <div class="outcome-item">
+                        <i class="fas fa-clipboard-check"></i>
+                        <h4>Simplified Planning</h4>
+                        <p>Streamlined workspace planning for hybrid teams with intuitive booking</p>
+                    </div>
+                    <div class="outcome-item">
+                        <i class="fas fa-robot"></i>
+                        <h4>Reduced Manual Work</h4>
+                        <p>Automated desk assignment process eliminated manual coordination</p>
+                    </div>
+                    <div class="outcome-item">
+                        <i class="fas fa-eye"></i>
+                        <h4>Clear Visibility</h4>
+                        <p>Real-time desk availability across all floors and zones</p>
+                    </div>
+                    <div class="outcome-item">
+                        <i class="fas fa-rocket"></i>
+                        <h4>Improved Productivity</h4>
+                        <p>Streamlined booking experience with instant notifications</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer CTA -->
+    <section class="footer-cta">
+        <div class="container">
+            <h2>Interested in Working Together?</h2>
+            <a href="index.html#contact" class="btn-cta">
+                <i class="fas fa-envelope me-2"></i>Get In Touch
+            </a>
+            <a href="index.html#projects" class="btn-cta">
+                <i class="fas fa-folder me-2"></i>View More Projects
+            </a>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Fade-in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Desk item interactions
+        document.querySelectorAll('.desk-item').forEach(desk => {
+            desk.addEventListener('click', function () {
+                if (this.classList.contains('available')) {
+                    // Simulate reservation
+                    const confirmReserve = confirm('Would you like to reserve this desk?');
+                    if (confirmReserve) {
+                        this.classList.remove('available');
+                        this.classList.add('reserved');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

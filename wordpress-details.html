@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordPress Website Development - Project Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/wordpress.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">YPN</a>
+            <a href="index.html#projects" class="btn btn-back ms-auto">
+                <i class="fas fa-arrow-left me-2"></i>Back to Portfolio
+            </a>
+        </div>
+    </nav>
+
+    <!-- Project Hero -->
+    <section class="project-hero">
+        <div class="container">
+            <div class="project-hero-content">
+                <h1>End-to-End WordPress Website Development</h1>
+                <p class="subtitle">I developed a complete WordPress website from scratch with a strong focus on
+                    performance, custom functionality, and a clean, modern user experience. This project involved
+                    building the theme, implementing custom logic, and integrating external systems through APIs.</p>
+
+                <div class="project-meta">
+                    <div class="meta-item">
+                        <i class="fas fa-link"></i>
+                        <a href="https://seafood-online.softsolutions4u.com/" class="btn text-light fw-medium"
+                            target="_blank" rel="noopener noreferrer"><span>Sea Food Online</span></a>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-link"></i>
+                        <a href="https://helloperformance-testserver.de/cashforless/herbstangebot/"
+                            class="btn text-light fw-medium" target="_blank" rel="noopener noreferrer">Cash4less</a>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-link"></i>
+                        <a href="https://helloperformance-testserver.de/forming/" class="btn text-light fw-medium"
+                            target="_blank" rel="noopener noreferrer"><span>Forming</span></a>
+                    </div>
+                </div>
+
+                <div class="tech-stack">
+                    <span class="tech-pill"><i class="fab fa-wordpress me-2"></i>WordPress</span>
+                    <span class="tech-pill"><i class="fab fa-php me-2"></i>PHP</span>
+                    <span class="tech-pill"><i class="fab fa-js me-2"></i>JavaScript</span>
+                    <span class="tech-pill"><i class="fab fa-bootstrap me-2"></i>Bootstrap</span>
+                    <span class="tech-pill">AJAX</span>
+                    <span class="tech-pill">REST API</span>
+                    <span class="tech-pill"><i class="fas fa-database me-2"></i>MySQL</span>
+                    <span class="tech-pill"><i class="fab fa-css3-alt me-2"></i>CSS3</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Content -->
+    <section class="project-content">
+        <div class="container">
+            <h2 class="section-title">Key Responsibilities & Implementation Details</h2>
+
+            <!-- 1. Custom Theme Development -->
+            <div class="responsibility-card">
+                <span class="card-number">01</span>
+                <h3>
+                    <span class="card-icon"><i class="fas fa-paint-brush"></i></span>
+                    Custom Theme Development
+                </h3>
+                <ul>
+                    <li>Built a fully responsive theme using Bootstrap, custom CSS, and WordPress coding standards.</li>
+                    <li>Implemented reusable template parts for header, footer, archive pages, blog pages, and custom
+                        layouts.</li>
+                    <li>Created a clean and modern UI consistent across desktop, tablet, and mobile devices.</li>
+                </ul>
+            </div>
+
+            <!-- 2. Custom Calculation Forms -->
+            <div class="responsibility-card">
+                <span class="card-number">02</span>
+                <h3>
+                    <span class="card-icon"><i class="fas fa-calculator"></i></span>
+                    Custom Calculation Forms
+                </h3>
+                <ul>
+                    <li>Developed advanced calculation forms (quote generator / pricing calculator) using:
+                        <ul>
+                            <li>Custom PHP</li>
+                            <li>JavaScript logic</li>
+                            <li>AJAX for instant calculations</li>
+                        </ul>
+                    </li>
+                    <li>The form dynamically updates price and user-selected options.</li>
+                    <li>Integrated form submissions into the WordPress backend and automated email notifications.</li>
+                </ul>
+            </div>
+
+            <!-- 3. Extended Functionality Using Hooks -->
+            <div class="responsibility-card">
+                <span class="card-number">03</span>
+                <h3>
+                    <span class="card-icon"><i class="fas fa-code"></i></span>
+                    Extended Functionality Using Hooks, Actions & Filters
+                </h3>
+                <ul>
+                    <li>Customized core WordPress behavior without modifying core files.</li>
+                    <li>Used <code>add_action</code>, <code>add_filter</code>, and custom hooks to:
+                        <ul>
+                            <li>Modify form behavior</li>
+                            <li>Filter API results</li>
+                            <li>Inject dynamic content</li>
+                            <li>Customize post types & taxonomies</li>
+                        </ul>
+                    </li>
+                    <li>Ensured clean, maintainable and upgrade-safe code.</li>
+                </ul>
+            </div>
+
+            <!-- 4. Third-Party API Integrations -->
+            <div class="responsibility-card">
+                <span class="card-number">04</span>
+                <h3>
+                    <span class="card-icon"><i class="fas fa-plug"></i></span>
+                    Third-Party API Integrations
+                </h3>
+                <ul>
+                    <li>Integrated external applications via REST APIs, including:
+                        <ul>
+                            <li>Sending data from forms to external systems</li>
+                            <li>Pulling live data from APIs and displaying them on the site</li>
+                            <li>Synchronizing user-generated data with third-party tools</li>
+                        </ul>
+                    </li>
+                    <li>Ensured secure communication using authentication, API keys, and input validation.</li>
+                </ul>
+            </div>
+
+            <!-- 5. Performance & SEO Optimization -->
+            <div class="responsibility-card">
+                <span class="card-number">05</span>
+                <h3>
+                    <span class="card-icon"><i class="fas fa-rocket"></i></span>
+                    Performance & SEO Optimization
+                </h3>
+                <ul>
+                    <li>Optimized loading speed using:
+                        <ul>
+                            <li>Image compression</li>
+                            <li>Minified CSS & JS</li>
+                            <li>Lazy loading</li>
+                            <li>Caching</li>
+                        </ul>
+                    </li>
+                    <li>Improved SEO performance with:
+                        <ul>
+                            <li>Proper heading hierarchy</li>
+                            <li>Schema markup</li>
+                            <li>Keyword-optimized content</li>
+                            <li>Better Accessibility</li>
+                        </ul>
+                    </li>
+                    <li>Ensured cross-device and cross-browser compatibility.</li>
+                </ul>
+            </div>
+
+            <!-- Outcome Section -->
+            <div class="outcome-section">
+                <h3><i class="fas fa-trophy"></i>Project Outcome</h3>
+                <ul>
+                    <li>Delivered a fast, scalable, SEO-friendly and Accessibility WordPress website with custom
+                        features tailored to
+                        business needs.</li>
+                    <li>Enhanced user engagement through interactive forms and optimized UI.</li>
+                    <li>Improved workflow efficiency with automated calculations and third-party integrations.</li>
+                </ul>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Responsive</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">A+</span>
+                        <span class="stat-label">Performance</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">SEO</span>
+                        <span class="stat-label">Optimized</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer CTA -->
+    <section class="footer-cta">
+        <div class="container">
+            <h2>Interested in Custom WordPress Solutions?</h2>
+            <a href="index.html#contact" class="btn-cta">
+                <i class="fas fa-envelope"></i>Get In Touch
+            </a>
+            <a href="index.html#projects" class="btn-cta">
+                <i class="fas fa-folder"></i>View More Projects
+            </a>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
